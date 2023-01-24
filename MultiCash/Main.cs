@@ -38,7 +38,7 @@ namespace MultiCash
                 }
             }
 
-            if (Input.GetKey(KeyCode.LeftShift) && Input.GetKeyDown(KeyCode.F5))
+            if (Input.GetKey(KeyCode.LeftShift) && Input.GetKeyDown(KeyCode.F10))
             {
                 Il2CppSystem.Action<string>mod = (Il2CppSystem.Action<string>)delegate (string s)
                 {
