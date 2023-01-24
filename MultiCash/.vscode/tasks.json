@@ -1,0 +1,39 @@
+{
+    "version": "2.0.0",
+    "tasks": [
+        {
+            "type": "shell",
+            "command": "dotnet",
+            "label": "love",
+            "problemMatcher": [
+                "$go"
+            ],
+            "args": [
+                "build"
+            ]
+        },
+        {
+            "type": "shell",
+            "command": "cp",
+            "label": "copy",
+            "problemMatcher": [
+                "$go"
+            ],
+            "args": [
+                "${cwd}/bin/Debug/MultiCash.dll",
+                "C:\\Epic Games\\BloonsTD6\\Mods"
+            ]
+        },
+        {
+            "type": "shell",
+            "dependsOn": [
+                "love",
+                "copy"
+            ],
+            "label": "build",
+            "problemMatcher": [
+                "$go"
+            ]
+        }
+    ]
+}

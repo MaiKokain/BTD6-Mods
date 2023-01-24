@@ -1,0 +1,1 @@
+Based from [Felixfex's](https://github.com/Felixfex) MultiCash mod updated to support newer version (i think).
